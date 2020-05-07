@@ -43,7 +43,6 @@ check_exit_status() {
 
          sudo sudo apt install openjdk-11-jre-headless -y;
          check_exit_status
-         check_exit_status
 
          sudo apt install openjdk-8-jre-headless -y;
          check_exit_status
@@ -55,10 +54,8 @@ check_exit_status() {
          check_exit_status
 
          sudo apt-get autoclean -y;
-         check_exit_status
 
          sudo updatedb;
-         check_exit_status
  }
  bounce() {
          echo "Ok let's double check that the Java install right "
